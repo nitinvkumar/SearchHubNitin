@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Site details -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Nitin V Kumar">
+        <title>SearchHub</title>
+        
+        <!-- JQuery CDN (v1) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+        <!-- Bootstrap CDN (Latest) -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="Finalscript.js"></script>
+    
+    <link rel="stylesheet" href="FinalStyle.css" type="text/css" />
+    </head>
+    <body>
+        <main class="container-fluid">
+            <header>
+                <h1>Search Hub</h1>
+                <h3>One stop shop for all your search needs</h3>
+            </header>
+            
+            <form>
+                <div class="form-group">
+                    <label for="text"> Enter Keywords: press enter to submit:</label>
+                    <input type="search" class="form-control" id="websearch">
+                </div>
+            </form>
+            <div class = "row">
+            <section class="apis">
+                <div class="panel-group">
+                    <div class="panel panel-default panel-left col-md-4">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" href="#gl">Google</a>
+                            </h4>
+                        </div>
+                    
+                        <div id="gl" class="panel-collapse collapse"> <!--Google panel-->
+                        <div class="panel-body">API data.</div>
+                        </div>
+                    </div>
+                
+                    <div class="panel panel-default panel-center col-md-4 ">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" href="#wiki">Wikis</a>
+                            </h4>
+                        </div>
+                        <div id="wiki" class="panel-collapse collapse ">
+                        <div class="panel-body">API data.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default panel-right col-md-4">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" href="#NYT">NYT Article Search</a>
+                            </h4>
+                        </div>
+                        <div id="NYT" class="panel-collapse collapse">
+                        <div class="panel-body">API data</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+           
+             &copy Nitin V Kumar
+        </main>
+        
+       
+    </body>
+
+</html>
